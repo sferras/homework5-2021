@@ -52,8 +52,6 @@ footer{
 }
 
 
-
-
 /*****  End Starter Code ****/
 
 nav a{
@@ -82,7 +80,7 @@ nav a:hover{
 }
 
 /* Requirement 3b code here*/
-.skip a:focus-visible{
+.skip a:focus{
   position: relative;
 }
 
@@ -182,6 +180,7 @@ header{
   background-color: rgba(255, 255, 255, .8);
   border: 10px solid black;
   padding: 30px;
+ 
 
   /* Your code here */
   align-self: center;
@@ -190,7 +189,7 @@ header{
 
 @media screen and (min-width: 800px){
   nav{
-    padding: 30px 0;
+    padding: 30px;
 
     /* Your code here */
     text-align: right;
@@ -206,48 +205,48 @@ header{
 
   .about-image{
     grid-column-start: 2;
-    grid-column-end: span 4;
+    grid-column-end:  4;
 
   }
 
   .about{
     grid-column-start: 3;
-    grid-column-end: span 5;
+    grid-column-end: 5;
   }
 
   .method-image{
     grid-column-start: 3;
-    grid-column-end: span 5;
+    grid-column-end:  5;
     
   }
 
   .method{
     grid-column-start: 2;
-    grid-column-end: span 4;
+    grid-column-end:  4;
 
   }
 
   .clients-image{
     grid-column-start: 2;
-    grid-column-end:  span 4;
+    grid-column-end:   4;
          
   }
 
   .clients{
     grid-column-start: 3;
-    grid-column-end: span 5;
+    grid-column-end:  5;
       
   }
 
   .contact-image{
     grid-column-start:  3;
-    grid-column-end: span 5;
+    grid-column-end:  5;
         
   }
 
   .contact{
     grid-column-start: 2;
-    grid-column-end: span 4;
+    grid-column-end:  4;
    
   }
 
