@@ -76,7 +76,7 @@ nav a:hover{
   z-index: 1;
   /* Requirement 3a code here*/
   position: absolute;
-  top: 40px;
+  top: -40px;
 }
 
 /* Requirement 3b code here*/
@@ -92,7 +92,6 @@ nav a:hover{
 
 .container{
   /* Requirement 5 code here*/
-
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: auto;
@@ -189,7 +188,7 @@ header{
 
 @media screen and (min-width: 800px){
   nav{
-    padding: 30px;
+    padding: 30px 0;
 
     /* Your code here */
     text-align: right;
@@ -199,6 +198,7 @@ header{
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
     grid-template-rows: 400px 400px 400px 400px 400px;
+
   }
 
   
